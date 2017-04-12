@@ -6,6 +6,7 @@ text-align: center;
 height: 215px;
 background-color: #f2f2f2;
 width: 100%;
+opacity: 90%;
 }
 
 .nav-link {
@@ -50,23 +51,23 @@ margin: 0;
   flex: 1;
   padding: 20px;
   margin-top: 0;
+  text-align: left;
+
 }
 .one:nth-child(2) {
   background-color: #c3bbac;
   text-align: center;
 }
 
-.title h1{
-  text-align: center;
-}
 
 .one a {
   color: #8e5942;
-  margin-left: 60px;
+
 }
 .one img {
 width: 80px;
 }
+
 
 .info {
   display: inline-flex;
@@ -78,13 +79,32 @@ width: 80px;
   width: 100%;
 }
 
-.cake-heart {
+.section {
  display: flex;
   width: 100%;
 }
-.heart img{
+.heart img {
   width: 80px;
-}
-.cake-heart div {
 
+}
+. heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart p {
+justify-content: center;
+}
+
+.fix-index-cake1.img {
+  width: 80%;
+}
+.fix-index-whiskicon img {
+  height: 80px;
+  display: inline-flex;
+}
+
+.fix-index-cake2 img {
+  width: 80%;
 }
