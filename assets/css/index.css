@@ -6,7 +6,7 @@ text-align: center;
 height: 215px;
 background-color: #f2f2f2;
 width: 100%;
-opacity: 90%;
+opacity: 0.9;
 }
 
 .nav-link {
@@ -36,11 +36,12 @@ opacity: 90%;
 
 }
 
-.section {
+.section-top {
 display: flex;
 align-items: flex-start;
-width: 100%;
-margin: 0;
+align-items: stretch;
+justify-content: center;
+
 }
 
 .one {
@@ -48,23 +49,31 @@ margin: 0;
   font-size: 1em;
   color: #303030;
   line-height: 1.6em;
-  flex: 1;
   padding: 20px;
   margin-top: 0;
   text-align: left;
+  width: 50%;
 
 }
-.one:nth-child(2) {
+.one-1 {
   background-color: #c3bbac;
   text-align: center;
+  width: 50%;
 }
 
+.cake-menu {
+  color:#f2f2f2;
+  font-family: 'Oswald', sans-serif;
+
+
+
+}
 
 .one a {
   color: #8e5942;
 
 }
-.one img {
+.one-1 img {
 width: 80px;
 }
 
@@ -77,34 +86,112 @@ width: 80px;
   background-color: #8e5942;
   height: 220px;
   width: 100%;
+  font-family: "Oswald",sans-serif;
+  font-size: 2.1em;
+  color: #f2f2f2;
 }
 
-.section {
+.section-1 {
  display: flex;
   width: 100%;
+  align-items: stretch;
+  }
+
+.section-1 img{
+width: 70%;
 }
+
 .heart img {
   width: 80px;
-
 }
-. heart {
+ .heart {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  width: 30%;
 }
 
 .heart p {
-justify-content: center;
+justify-content:center;
+text-align: center;
+font-family: "Oswald",sans-serif;
+color: #c3bbac;
+font-size: 2.5em;
+line-height: 2em;
 }
 
-.fix-index-cake1.img {
-  width: 80%;
+.section-2 {
+  display: flex;
+  width: 100%;
+
+
 }
-.fix-index-whiskicon img {
-  height: 80px;
-  display: inline-flex;
+.section-2 p {
+  justify-content: center;
+  text-align: center;
+    flex-direction: column;
 }
 
+.section-2 img {
+  width: 30%;
+  flex-direction: column;
+
+
+}
+.fix-index-cake2 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
 .fix-index-cake2 img {
   width: 80%;
+  display: flex;
+}
+.section-3 {
+  display: flex;
+  width: 100%;
+}
+.section-3 img {
+  width: 70%;
+  display: flex;
+}
+.fix-index-bulbcon {
+  width: 30%;
+  flex-direction: column;
+}
+
+.fix-index-bulbcon img {
+  height: 80px;
+}
+
+
+.fix-index-bulbcon p {
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  background-color: #be5f27;
+  width: 100%;
+  height: 215px;
+  display:inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.address {
+ font size: 0.9pm;
+ color: #f2f2f2;
+ }
+.fix-logo-white img {
+  width: 100px;
+}
+.fix-icon img {
+  height: 38px;
+}
+
 }
